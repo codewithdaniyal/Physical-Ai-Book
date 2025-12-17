@@ -1,0 +1,32 @@
+/* Custom "Modern Tech" Look */
+
+/* Make the Hero section dark and cool */
+.hero {
+  background-color: #1b1b1d;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+/* Center the text vertically in the split screen */
+.hero .row {
+  align-items: center;
+}
+
+/* Add a subtle hover effect to the chapter cards */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+  border-color: #25c2a0 !important; /* Green glow on hover */
+}
+
+/* Make buttons rounded */
+.button {
+  border-radius: 50px;
+  font-weight: bold;
+}
